@@ -12,7 +12,7 @@ client.on('message', msg => {
 });
 
 client.on('ready',  () => {
-  console.log('By : حسوني العراقي ');
+  console.log('By : امين ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -27,9 +27,10 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『Diamond Bot』 『اسم البوت』", true)
+      .addField("『Talel.』 『اسم البوت』", true)
       
-      .addField("『@حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725』『مصمم البوت』", true)
+      .addField("『@, Boss ❗
+#4863』『مصمم البوت』", true)
       
       .addField("『^help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
