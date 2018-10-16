@@ -28,9 +28,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .addField("『Talel.』 『اسم البوت』", true)
-      
-      .addField("『@, Boss ❗
-#4863』『مصمم البوت』", true)
+     
       
       .addField("『^help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
